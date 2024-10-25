@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación Responsive</title>
+    <link rel="icon" href="https://th.bing.com/th/id/R.008ed4d183b12e2a5566e72284e21221?rik=A85%2b%2flR7x0smLg&pid=ImgRaw&r=0" type="icon"><!--Icono-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background: linear-gradient(to right, #BDC3C7, #2C3E50); overflow-x: hidden;">
+    <header>
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid d-flex align-items-center"> <!--navar responsivo-->
+                <img src="https://img.icons8.com/?size=100&id=18819&format=png&color=000000" style="width: 9%;" alt="Logo" class="me-2 float-start"> <!--strart-reemplaza a left-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav"> <!--Menu con elementos visibles -->
+                    <ul class="navbar-nav ms-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Autos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Imágenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Regístrate</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-2" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar un modelo" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-primary d-none d-md-block ms-2" type="button">Contacto</button><!--Boton de contacto-->
+                    </form>
+                </div>
+            </div>
+        </nav>        
+    </header>
+    <div class="bg-primary text-white text-center p-3 p-md-5"><!--fondo con color--><!--usuo de pading-->
+        <h5 class="text-uppercase">BMW Autos</h5>
+        <p>El placer de conducir no se mide en kilómetros, sino en cada segundo que pasas detrás del volante</p><!--Titulo en mayuscula-->
+    </div>
+        
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Características Destacadas de BMW</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- flex-box -->
+            <div class="col">
+                <div class="card border-primary"> <!-- Tarjeta 1 -->
+                    <div class="card-body text-center">
+                        <img src="https://img.icons8.com/?size=100&id=OvJYDnnuOWK0&format=png&color=000000" alt="Características 1" class="mb-3" style="color: #007bff;">
+                        <h5 class="card-title">Rendimiento Deportivo</h5>
+                        <p class="card-text">Conduce con la máxima potencia y agilidad que solo BMW ofrece.</p>
+                    </div>
+                </div> <!-- Fin de tarjeta 1 -->
+            </div>
+            <div class="col">
+                <div class="card border-success"> <!-- Tarjeta 2 -->
+                    <div class="card-body text-center">
+                        <img src="https://img.icons8.com/?size=100&id=59166&format=png&color=000000" alt="Características 2" class="mb-3" style="color: #28a745;">
+                        <h5 class="card-title">Eficiencia de Combustible</h5>
+                        <p class="card-text">Recorre más kilómetros con un menor consumo de combustible.</p>
+                    </div>
+                </div> <!-- Fin de tarjeta 2 -->
+            </div>
+            <div class="col">
+                <div class="card border-danger"> <!-- Tarjeta 3 -->
+                    <div class="card-body text-center">
+                        <img src="https://img.icons8.com/?size=100&id=dO8dwosjySi5&format=png&color=000000" alt="Características 3" class="mb-3" style="color: #dc3545;">
+                        <h5 class="card-title">Diseño e innovacion</h5>
+                        <p class="card-text">Estilo vanguardista que fusiona lujo, comodidad y tecnología que buscas.</p>
+                    </div>
+                </div> <!-- Fin de tarjeta 3 -->
+            </div>
+        </div>
+    </div>
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="https://bmw.scene7.com/is/image/BMW/neue-klasse-x_new-dimension:3to2?fmt=webp&wid=1024&hei=683" alt="logo" class="img-fluid" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="col-md-6">
+                <p class="text-start"><em>
+                    EL BMW NEUE KLASSE ES MUCHO MÁS QUE UN COCHE.<br><br>
+                    Con la Neue Klasse de BMW repensamos la movilidad y la hacemos eléctrica, digital y circular. Descubre más sobre los dos vehículos pioneros de la Neue Klasse de BMW y sobre la nueva era de la movilidad. <br>
+                    Los vehículos de la Neue Klasse no solo son eléctricos, sino que también están profundamente integrados en el ecosistema digital y diseñados bajo un principio de economía circular, comprometido con la reducción de la huella de carbono en todas las etapas del ciclo de vida del automóvil.
+                </em></p>
+            </div>
+        </div>
+    </section>
+    <div class=" justify-content-center bg-dark text-white vh-10">
+        <img src="https://th.bing.com/th/id/R.40fff0d892f561bac8a0f4fb433a6a89?rik=2aBHPFjpZQt2Jg&riu=http%3a%2f%2fwww.car-revs-daily.com%2fwp-content%2fuploads%2fBMW-Vision-GT-Header-GIF.gif&ehk=PeWhS9zL%2fUzxJcromqyND5hOA3DfPtxP2cNHbNGXSX0%3d&risl=&pid=ImgRaw&r=0" class="img-fluid  w-100 " alt="Descripción del GIF">
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4"><em>Galería de Imágenes</em></h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="https://mediapool.bmwgroup.com/cache/P9/202304/P90500058/P90500058-bmw-korea-to-release-the-new-bmw-x1-and-ix1-the-premium-compact-sav-04-2023-2248px.jpg" class="img-fluid rounded" alt="BMW iX1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://car.motor-fan.jp/images/articles/10014279/big_main10014279_20200406190921000000.jpg" class="img-fluid rounded" alt="BMW XM">
+            </div>
+            <div class="col-md-4">
+                <img src="https://autoextragti.com/wp-content/uploads/2022/09/P90465601_highRes_the-all-new-bmw-x1-x-1200x800.jpg" class="img-fluid rounded" alt="BMW X1">
+            </div>
+        </div>
+        <div class="row g-4 mt-3">
+            <div class="col-md-4">
+                <img src="https://media.ed.edmunds-media.com/bmw/m2/2017/oem/2017_bmw_m2_coupe_base_fq_oem_1_815.jpg" class="img-fluid rounded" alt="BMW i4">
+            </div>
+            <div class="col-md-4">
+                <img src="https://th.bing.com/th/id/OIP.UTfDD1qD5pZq_Qckd7MBmwHaE8?rs=1&pid=ImgDetMain" class="img-fluid rounded" alt="BMW 5 Series">
+            </div>
+            <div class="col-md-4">
+                <img src="https://th.bing.com/th/id/R.a4ab184a12ce59dc8c5d1ce1f2f9de86?rik=hvME5QHIOK9%2b%2fw&pid=ImgRaw&r=0" class="img-fluid rounded" alt="BMW CSL">
+            </div>
+        </div>
+    </div>          
+    <section class="container my-5">
+        <h2 class="display-4">Regístrate aquí</h2>
+        <form class="row g-4">
+            <div class="col-12">
+                <label for="fullName" class="form-label">Nombre y apellido</label>
+                <input type="text" aria-label="Full Name" class="form-control" placeholder="Ingrese su nombre completo" id="fullName">
+            </div>
+            <div class="col-12">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>    
+    <footer class="footer bg-ligth text-center mt-auto">
+        <div class="container d-flex flex-column align-items-center p-4 border-top"><!--Uso de flex box y alineacion--><!--margenesy padings--> <!--bordes-->
+            <p class="mb-0 text-muted"><em>
+                © 2024 Bmw. Todos los derechos reservados.
+            </em></p>
+            <div class="footer-links mt-2 d-flex">
+                <a href="#" class="text-decoration-none text-primary me-3"><ins>Política de Privacidad</ins></a><!--tipos de texto-->
+                <span class="text-muted">|</span><!--tipos de texto-->
+                <a href="#" class="text-decoration-none text-primary ms-3"><ins>Términos de Servicio</ins></a>
+            </div>
+        </div>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
